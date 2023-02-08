@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../assets/images/';
+import Resume from '../../assets/images/Victor Soto Resume 2022.docx1024_1.jpg';
 
 const MyResume = () => {
   return (

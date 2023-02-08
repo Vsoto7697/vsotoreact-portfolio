@@ -1,5 +1,5 @@
 import React from 'react';
-import Selfie from '../../assets/imagesprofilepicture.jpeg';
+import Selfie from '../../assets/images/profilepicture.jpeg';
 
 const Home = () => {
   return (
