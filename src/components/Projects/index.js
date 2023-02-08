@@ -1,11 +1,10 @@
 import React from 'react';
 
-import MovieJuice from '../../assets/images/jakob-owens-CiUR8zISX60-unsplash.jpg';
-import YouLou from '../../assets/images/intricate-explorer-Gt6D-s4M-04-unsplash.jpg';
-import GitHubLite from '../../assets/images/roman-synkevych-wX2L8L-fGeA-unsplash.jpg';
+import Fetch from '../../assets/images/jakob-owens-CiUR8zISX60-unsplash.jpg';
+import ReadmeGenerator from '../../assets/images/intricate-explorer-Gt6D-s4M-04-unsplash.jpg';
 import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg';
-import WorkSchedule from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
-import NoteTaker from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
+import WeatherApp from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
+import GititDone from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
 
 const Projects = () => {
   return (
@@ -16,18 +15,18 @@ const Projects = () => {
 
         <div className="col">
             <div className="card">
-              <img src={YouLou} alt="You in the Lou" className="card-img-top" />
-              You in the Lou
+              <img src={ReadmeGenerator} alt="Readme Generator" className="card-img-top" />
+              Readme Generator
               <div className="card-body">
                 <a
-                  href="https://github.com/olliedirker/You-in-the-Lou"
+                  href="https://github.com/Vsoto7697/Readme-generator"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://you-in-the-lou.onrender.com"
+                  href="https://www.youtube.com/watch?v=8CzK2e7-We8"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -39,18 +38,18 @@ const Projects = () => {
 
           <div className="col">
             <div className="card">
-              <img src={MovieJuice} alt="movieJuice" className="card-img-top" />
-              movieJuice
+              <img src={Fetch} alt="Fetch" className="card-img-top" />
+              Fetch
               <div className="card-body">
                 <a
-                  href="https://github.com/amymgardiner/movieJuice"
+                  href="https://github.com/awinters81/Project-1"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://amymgardiner.github.io/movieJuice/"
+                  href="https://awinters81.github.io/Project-1/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -59,29 +58,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="col">
-            <div className="card">
-              <img src={GitHubLite} alt="GitHubLite" className="card-img-top" />
-              GitHub Lite
-              <div className="card-body">
-                <a
-                  href="https://github.com/amymgardiner/GitHub-Lite"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>GitHub</button>
-                </a>
-                <a
-                  href="https://radiant-basin-16315.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button>Website</button>
-                </a>
-              </div>
-            </div>
-          </div> */}
 
           <div className="col">
             <div className="card">
@@ -93,14 +69,14 @@ const Projects = () => {
               Coding Quiz Game
               <div className="card-body">
                 <a
-                  href="https://github.com/amymgardiner/Coding-Quiz-Game"
+                  href="https://github.com/Vsoto7697/VsotoJSquiz"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://amymgardiner.github.io/Coding-Quiz-Game/"
+                  href="https://vsoto7697.github.io/VsotoJSquiz/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -113,21 +89,21 @@ const Projects = () => {
           <div className="col">
             <div className="card">
               <img
-                src={WorkSchedule}
-                alt="Work Day Scheduler"
+                src={WeatherApp}
+                alt="Server Side API Weather App"
                 className="card-img-top"
               />
-              Day Scheduler
+              Server Side API Weather app
               <div className="card-body">
                 <a
-                  href="https://github.com/amymgardiner/Work-Day-Scheduler"
+                  href="https://github.com/Vsoto7697/Server-Side-API-Weather-App"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://amymgardiner.github.io/Work-Day-Scheduler/"
+                  href="https://vsoto7697.github.io/Server-Side-API-Weather-App/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -139,18 +115,18 @@ const Projects = () => {
 
           <div className="col">
             <div className="card">
-              <img src={NoteTaker} alt="Note Taker" className="card-img-top" />
-              Note Taker
+              <img src={GititDone} alt="Git it Done" className="card-img-top" />
+              Git it Done!
               <div className="card-body">
                 <a
-                  href="https://github.com/amymgardiner/Note-Taker"
+                  href="https://github.com/Vsoto7697/git-it-done"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button>GitHub</button>
                 </a>
                 <a
-                  href="https://note-taker-fzox.onrender.com/"
+                  href="https://vsoto7697.github.io/git-it-done/"
                   target="_blank"
                   rel="noreferrer"
                 >
