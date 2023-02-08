@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Fetch from '../../assets/images/jakob-owens-CiUR8zISX60-unsplash.jpg';
-import ReadmeGenerator from '../../assets/images/intricate-explorer-Gt6D-s4M-04-unsplash.jpg';
-import CodingQuiz from '../../assets/images/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg';
-import WeatherApp from '../../assets/images/eden-constantino-bTukYI4DjOs-unsplash.jpg';
-import GititDone from '../../assets/images/david-travis-5bYxXawHOQg-unsplash.jpg';
+import Fetch from '../../assets/images/fetchwebsitescreenshot.png';
+import ReadmeGenerator from '../../assets/images/readmegeneratorwebsitescreenshot.jpeg';
+import CodingQuiz from '../../assets/images/codingquizwebsitescreenshot.jpeg';
+import WeatherApp from '../../assets/images/serversideapiweatherappwebsitescreenshot.jpeg';
+import GititDone from '../../assets/images/gititdonewebsitescreenshot.jpeg';
 
 const Projects = () => {
   return (
