@@ -32,8 +32,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: #30343f;
-  color: #f8edeb;
+  background: #7c7d7f;
+  color: #ffffff;
 }
 
 .row {
@@ -146,7 +146,7 @@ a {
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
-  color: #b75d69;
+  color: #58b3f8;
   transition: all 0.2s ease-in-out;
 }
 
@@ -164,25 +164,25 @@ header {
   justify-content: center;
   align-items: baseline;
   padding: 10px;
-  border-bottom: 4px solid #b75d69;
-  background: #eacdc2;
+  border-bottom: 4px solid #f48c23;
+  background: #58b3f8;
 }
 
 header a {
-  color: #372549;
+  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 
 header a:hover {
   text-decoration: none;
-  color: #783f8e;
+  color: #f48c23;
   transform: scale(1.1);
 }
 
 header h1 {
   font-family: 'Alkalami', serif;
   margin-top: 1rem;
-  color: #372549;
+  color: #f48c23;
   transition: all 0.2s ease-in-out;
 }
 
@@ -196,7 +196,7 @@ nav a {
 
 nav a:hover {
   text-decoration: none;
-  color: #b75d69;
+  color: #f48c23;
   transform: scale(1.1);
 }
 
@@ -208,8 +208,8 @@ button {
   border: none;
   outline: none;
   border-radius: 55px;
-  color: #fafaff;
-  background: #1a1423;
+  color: #ffffff;
+  background: #f48c23;
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
@@ -219,7 +219,7 @@ button {
 
 button:hover {
   opacity: 0.8;
-  border: 2px #b75d69 solid;
+  border: 2px #ffffff solid;
 }
 
 button[disabled] {
@@ -235,7 +235,7 @@ button[disabled] {
 
 .card {
   align-items: center;
-  background-color: #fae1dd;
+  background-color: #58b3f8;
   margin: 10px;
 }
 
@@ -257,14 +257,14 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid #1a1423;
+  border: 1px solid #000000;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
 
 input:focus {
-  border: 1px solid #1e2749;
+  border: 1px solid #000000;
 }
 
 li {
@@ -279,17 +279,17 @@ textarea {
 }
 
 #notifyToast {
-  color: #fae1dd;
+  color: #58b3f8;
   border-radius: 6px;
   width: 150px;
   text-align: center;
   margin-left: 75px;
-  background-color: #783f8e;
+  background-color: #f48c23;
 }
 
 .card {
   text-align: center;
-  color: #1a1423;
+  color: #ffffff;
 }
 
 .img-thumbnail {
@@ -359,8 +359,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 4px solid #b75d69;
-  background: #eacdc2;
+  border-top: 4px solid #f48c23;
+  background: #58b3f8;
 }
 
 li {
@@ -371,11 +371,11 @@ footer ul li {
   display: inline;
   font-size: 2rem;
   padding: 1rem;
-  color: #372549;
+  color: #ffffff;
 }
 
 footer ul li:hover {
-  color: #783f8e;
+  color: #f48c23;
 }
 
 @media only screen and (max-width: 1445px) {
