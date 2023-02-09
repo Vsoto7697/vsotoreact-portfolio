@@ -7,7 +7,7 @@ const Header = () => {
     <header className="flex-row px-1">
       <div className="logo">
         <h1>
-          <Link to="/">Victor Soto</Link>
+          <Link to="/">Victor Manuel Soto</Link>
         </h1>
       </div>
       <Nav></Nav>

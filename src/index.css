@@ -43,6 +43,7 @@ body {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .space-between {
@@ -236,7 +237,11 @@ button[disabled] {
 .card {
   align-items: center;
   background-color: #58b3f8;
-  margin: 10px;
+  margin: 5px;
+}
+
+.card-text {
+  font-size: small;
 }
 
 .projects {
@@ -334,6 +339,7 @@ textarea {
   width: 55%;
   height: auto;
 }
+
 
 .contact {
   display: flex;
