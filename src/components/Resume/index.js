@@ -5,7 +5,8 @@ const MyResume = () => {
   return (
     <section className="about">
       <h1 id="about">Resume</h1>
-      <a href = {Pdf}>Click here to view</a>
+      <a href = {Pdf}>Click here to View
+      </a>
     </section>
   );
 };
