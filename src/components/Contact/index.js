@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
+import {FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
   const {
@@ -65,6 +66,20 @@ const Contact = () => {
   return (
     <section className="contact">
       <h1>Contact Me</h1>
+      <div>
+      <a href="mailto:Vsoto7697@gmail.com" target="blank">
+        Vsoto7697@gmail.com
+            <li>
+              <FaEnvelope />
+            </li>
+          </a>
+          <a href="tel:+8456336374" target="blank">
+            1 (845) 633-6374
+            <li>
+              <FaPhone />
+            </li>
+          </a>
+        </div>
       <div className="contact-div">
         <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
           <div>
