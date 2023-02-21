@@ -242,6 +242,12 @@ button[disabled] {
 
 .card-text {
   font-size: small;
+  color: #000000;
+}
+
+.card-language {
+  font-size: small;
+  color: #7c7d7f;
 }
 
 .projects {
